@@ -26,7 +26,7 @@ SESSION_SECRET=<your_session_secret_key>`
 `npm start`
 7. Open your web browser and visit http://localhost:3000 to access the YelpCamp application.
 
-##Technologies Used
+## Technologies Used
 * Node.js: A JavaScript runtime environment that allows running JavaScript on the server.
 * Express.js: A minimal and flexible web application framework for Node.js.
 * MongoDB: A NoSQL database used to store the application's data.
