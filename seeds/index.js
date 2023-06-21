@@ -32,7 +32,7 @@ const seedDB = async () => {
       location: `${cities[random100].city}`,
       title: `${sample(descriptors)} ${sample(places)}`,
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fugiat vero sequi pariatur odit dolorem, reiciendis recusandae voluptatibus sapiente quibusdam quisquam, quae laborum iure temporibus aperiam! Doloremque neque tempore illo.",
+        "Immerse yourself in Lithuania's natural beauty at our enchanting campsite. Experience traditional charm, warm hospitality, and breathtaking landscapes. Discover the magic of Lithuanian culture while exploring pristine forests and indulging in authentic cuisine. Book your stay and let Lithuania's spirit captivate you.",
       price,
       geometry: {
         type: "Point",
