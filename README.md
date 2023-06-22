@@ -1,6 +1,7 @@
 # YelpCamp
 
-![image](https://github.com/RiplisMartinkevicius/YelpCamp/assets/61363982/b5b453d0-0d75-4e65-ad0b-5246464b70ad)
+![image](https://github.com/RiplisMartinkevicius/YelpCamp/assets/61363982/893b76f3-5cd7-4932-adbb-3e74cc42efd7)
+
 
 YelpCamp is a campground review web application developed as part of Colt Steele's Web Development Bootcamp course. It allows users to browse and review various campgrounds, as well as share their own campground experiences. The application is built using Node.js, Express.js, MongoDB, and Bootstrap.
 
