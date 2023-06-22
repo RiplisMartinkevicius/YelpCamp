@@ -55,7 +55,7 @@ const img = [
 
 const seedDB = async () => {
   await Campground.deleteMany({});
-  for (let i = 0; i < 300; i++) {
+  for (let i = 0; i < 100; i++) {
     const random100 = Math.floor(Math.random() * 100);
     const randomImage = img[Math.floor(Math.random() * img.length)];
     const price = Math.floor(Math.random() * 20) + 10;
