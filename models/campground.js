@@ -1,8 +1,7 @@
 const mongoose = require("mongoose");
 const Review = require("./review");
 const Schema = mongoose.Schema;
-
-// https://res.cloudinary.com/douqbebwk/image/upload/w_300/v1600113904/YelpCamp/gxgle1ovzd2f3dgcpass.png
+const mongoosePaginate = require("mongoose-paginate-v2");
 
 const ImageSchema = new Schema({
   url: String,
@@ -61,5 +60,7 @@ CampgroundSchema.post("findOneAndDelete", async function (doc) {
     });
   }
 });
+
+CampgroundSchema.plugin(mongoosePaginate);
 
 module.exports = mongoose.model("Campground", CampgroundSchema);
